@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      table,
+      td,
+      th {
+        border: 2px solid black;
+        border-collapse: collapse;
+      }
+    </style>
+    <title>tables and forms</title>
+  </head>
+  <body>
+    <!-- <table>
+      <thead>
+        <tr>
+          <th>Monday</th>
+          <th>tuesday</th>
+          <th>wednesday</th>
+          <th>thursday</th>
+          <th>friday</th>
+          <th>saturday</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="3">maths</td>
+          <td>PT</td>
+          <td>Gujarti</td>
+          <td>GK</td>
+        </tr>
+        <tr>
+          <td colspan="3">sci</td>
+          <td>hindi</td>
+          <td rowspan="2">marathi</td>
+          <td>social Science</td>
+        </tr>
+        <tr>
+          <td colspan="4">english</td>
+          <td >english</td>
+        </tr>
+      </tbody>
+    </table> -->
+
+    <!-- <h1>heading</h1>
+    <h1>heading-2</h1> -->
+
+    <!-- <form>
+        <label for="">name</label>
+        <input type="text" value="mukesh">
+        <input type="number" value="9898123621">
+        <input type="checkbox" checked>
+        <input type="color" value="#9E2929">
+        <input type="email" name="" id="">
+        <input type="file" name="" id="" value="c:/passwords.txt">
+        <input type="date" name="" id="">
+        <input type="radio" name="" id="">
+        <input type="button" value="button">
+        <input type="reset" value="button">
+
+
+        <textarea  cols="20" rows="5"></textarea>
+
+        <button type="submit">submit</button>
+    </form> -->
+    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores quasi esse, voluptatibus dolor aut corporis aliquam animi odit! Libero nulla repudiandae ratione eveniet velit excepturi esse asperiores alias, optio rem!</p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, consequatur distinctio amet qui nam error quis autem perferendis iusto a facere in maxime, blanditiis laudantium tempore quae! Quam, aliquid architecto?</p> -->
+
+    <form>
+      <fieldset>
+        <legend>login form</legend>
+        <!-- for k andar input ki id add krni he -->
+        <p>
+          <label for="name">Name</label> <input type="text" name="" id="name" />
+        </p>
+
+        <p>
+          <label for="email">email</label>
+          <input type="email" id="email" />
+        </p>
+
+        <p>
+          <label for="password">password</label>
+          <input type="password" id="password" />
+        </p>
+
+        <p>
+            <fieldset>
+                <legend>Gender</legend>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male">
+
+                <label for="female">female</label>
+                <input type="radio" name="gender" id="female">
+
+                <label for="other">other</label>
+                <input type="radio" name="gender" id="other">
+                
+            </fieldset>
+        </p>
+
+        <p>
+            <fieldset>
+                <legend>hobby</legend>
+                <label for="cricket">cricket</label>
+                <input type="checkbox">
+                <label for="chess">chess</label>
+                <input type="checkbox">
+                <label for="kabbadi">kabbadi</label>
+                <input type="checkbox">
+            </fieldset>
+        </p>
+
+        <p>
+            <label for="address">Address</label>
+        </p>
+
+        <p>
+            <textarea  id="address" cols="40" rows="5"></textarea>
+        </p>
+
+        
+
+        <button>submit</button>
+        <button>reset</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
