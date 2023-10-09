@@ -1,0 +1,18 @@
+/* external css */
+
+/* tag selector */
+div{
+    border: 2px solid red;
+}
+
+/* id selector  */
+#para-1{
+    color: chocolate;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+  }
+
+/* class selector */
+.para_2{
+    color: crimson;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
