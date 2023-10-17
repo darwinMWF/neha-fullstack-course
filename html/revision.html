@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>revision position</title>
+    <style>
+      #btn-1 {
+        position: relative;
+        top: 10px;
+        /* left: 10px; */
+        /* right: 20px; */
+        /* bottom:10px; */
+      }
+
+      #btn-2 {
+        position: absolute;
+        top: 0;
+        /* bottom: 0; */
+        right: 0;
+        z-index: 50000;
+      }
+
+      #para-2 {
+        position: relative;
+        background-color: brown;
+        color: white;
+        /* right: 20px; */
+      }
+
+      /* positioning context */
+      div {
+        border: 2px solid;
+        position: relative;
+        height: 50vh;
+      }
+
+      #btn-3 {
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 10000;
+        /* bottom: 0; */
+        /* right: 50%; */
+      }
+
+      body {
+        height: 200vh;
+      }
+
+      #btn-4 {
+        position: sticky;
+        top: 20px;
+      }
+
+      h1 {
+        display: inline-block;
+        background-color: orange;
+        height: 100px;
+        width: 100px;
+      }
+      button {
+        display: block;
+      }
+      p{
+        display: inline;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, ad
+        mollitia. Incidunt distinctio maxime eveniet iusto. Eligendi vitae
+        expedita similique vero nemo cumque doloremque perferendis eos officia.
+        Dolorum, quas rem!
+      </p>
+      <p id="para-2">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas nisi
+        laudantium quas quidem minima. Nihil nam repellendus, commodi libero
+        fuga error eveniet molestias deleniti alias in neque rem veritatis hic?
+      </p>
+      <button id="btn-1">relative</button>
+      <button id="btn-2">absulute</button>
+      <button id="btn-3">fixed</button>
+      <button id="btn-4">sticky</button>
+      <h1>hello</h1>
+      <h1>world</h1>
+    </div>
+  </body>
+</html>
