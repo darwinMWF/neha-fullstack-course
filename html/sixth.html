@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flexbox</title>
+    <style>
+      /* parent properties
+        child properties */
+      /* inline a span em
+        block div h1 p ul li
+        inline-block img video  */
+      .container {
+        height: 50vh;
+        border: 2px solid;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        /* flex-wrap:wrap; */
+        align-content: space-around;
+        gap: 5px;
+      }
+
+      .container div {
+        width: 50px;
+        height: 50px;
+        border: 2px solid red;
+      }
+
+      #child-1 {
+        /* flex-grow:1 ; */
+        /* flex-basis: auto; */
+        align-self: center;
+        /* width: 100px; */
+        /* flex-shrink: 1; */
+        /* margin: 20px;
+            padding: 20px; */
+      }
+      #child-2 {
+        /* flex-grow:1 ;
+            flex-shrink: 1; */
+        /* margin: ; */
+      }
+      #child-3 {
+        /* flex-grow:2 ; */
+      }
+
+      #child-4 {
+        /* flex-shrink: 4; */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="child-1">1</div>
+      <div id="child-2">2</div>
+      <div id="child-3">3</div>
+      <div id="child-4">4</div>
+      <div id="child-5">5</div>
+
+      <!-- <div id="child-5">5</div>
+        <div id="child-5">5</div>
+        <div id="child-5">5</div>
+        <div id="child-5">5</div>
+        <div id="child-5">5</div>
+        <div id="child-5">5</div>
+        <div id="child-5">5</div>
+        <div id="child-5">5</div>
+        <div id="child-5">5</div>
+        <div id="child-5">5</div>
+        <div id="child-5">5</div>
+        <div id="child-5">5</div>
+        <div id="child-5">5</div>
+        <div id="child-5">5</div>
+        <div id="child-5">5</div> -->
+    </div>
+
+    <div style=" height: 400px; border: 2px solid; overflow: auto;">
+        <img src="../assets/images/img1.jpg" alt="" style="float: left;" width="100px">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia fugiat
+        tenetur magni cum consequuntur distinctio et sapiente quasi, quod error
+        <!-- rem debitis architecto laborum voluptate dolorem consequatur facere
+        laboriosam explicabo. Lorem ipsum, dolor sit amet consectetur
+        adipisicing elit. Cupiditate neque magni nostrum, dolor, similique atque -->
+        <!-- nobis harum laboriosam quo minima nam dicta inventore corrupti enim
+        totam rerum quia aliquid nihil? Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Numquam sed necessitatibus delectus iure tenetur magni
+        officiis ratione nulla iste dolore doloremque harum, dolorem molestiae.
+        Libero necessitatibus molestias neque iste cumque. Sunt neque doloremque
+        recusandae laboriosam ipsam molestiae odit deserunt natus veniam
+        reiciendis tempora distinctio, perspiciatis quidem magnam temporibus
+        exercitationem laborum sequi impedit mollitia quos a voluptates
+        blanditiis. Dolorum, architecto facilis? Repudiandae ipsam fuga impedit
+        dignissimos voluptate error similique ipsum rerum, non distinctio hic
+        tenetur animi doloremque. Dolorum suscipit vero, placeat sit illo, iste
+        in dolor quae eveniet voluptate atque. Saepe! Velit sapiente veniam eius
+        eum accusantium voluptates, quis sit est, cupiditate temporibus cumque
+        commodi quibusdam maiores officia dolores corrupti nisi provident omnis
+        voluptas ad dignissimos aperiam officiis! Sapiente, temporibus soluta. -->
+      </p>
+      <!-- <p style="clear: left;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni aliquam dolor pariatur nostrum, dolorum molestiae maxime. Totam nisi magni minus sapiente dolorum aliquid, non, perspiciatis impedit sequi nulla repellendus temporibus.</p> -->
+
+      
+      <!-- media query -->
+    </div>
+  </body>
+</html>
