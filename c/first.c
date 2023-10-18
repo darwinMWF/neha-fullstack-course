@@ -5,9 +5,8 @@ int main()          //Main Function
   //This is variable 
 
   /*
-  bjhg bfhgfb
-  gfegrffdff
-  gfgfgfgf
+  Multiline 
+  Comment
   */
 
  printf("Hello World\n");
