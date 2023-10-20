@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+/* header */
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6rem;
+}
+
+.title {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.container {
+  width: 900px;
+}
+
+.logoName {
+  align-self: center;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigationList {
+  display: flex;
+  align-items: center;
+}
+
+.navigationList li {
+  margin: 0 0.8rem;
+}
+
+.navigationList li a:hover {
+  border-bottom: 2px solid #99d6d0;
+}
+
+/* hero */
+.withback{
+    background-image: linear-gradient(
+        180deg,
+        rgba(100, 209, 198, 0.55),
+        rgba(100, 209, 198, 0.55)
+      ),
+      url("./assets/occen.jpg");
+    background-repeat: no-repeat;
+    background-size: auto, cover;
+    background-position: center;
+    padding: 98px 10px;
+}
+
+.heading {
+  color: #fff;
+  text-align: center;
+}
+
+.heroHeading {
+  letter-spacing: 5px;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.line-div {
+  margin: 28px auto;
+  border: 2px solid gray;
+}
+
+.subHeading {
+  font-style: italic;
+  font-family: serif;
+  letter-spacing: -1px;
+}
+
+.withoutback{
+    background-color: #fefec9;
+    padding-bottom: 61px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border:2px solid ;
+}
+
+.hero-para{
+    text-transform: capitalize;
+    width: 70%;
+    border: 2px solid red;
+    margin: 20px auto  ;
+    text-align: center;
+}
+
+.para-div{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.btnTouch{
+    width:5rem;
+}
+
+
+
+
+
+
+
+
+
+
