@@ -1,121 +1,68 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Oswald", sans-serif;
-  list-style: none;
-  text-decoration: none;
-  color: black;
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+    list-style: none;
 }
 
-/* header */
-
-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 6rem;
+/* navigation */
+header{
+    height: 40px;
+    border: 2px solid;
+}
+.container{
+    width: 900px;
+    height: 100%;
+    margin: 0 auto;
+    border: 2px solid red;
 }
 
-.title {
-  display: flex;
-  gap: 10px;
-  align-items: center;
+.colortext{
+    color: black;
 }
 
-.container {
-  width: 900px;
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid;
+    height: 100%;
 }
 
-.logoName {
-  align-self: center;
+#div-2{
+    display: flex;
 }
-nav {
-  display: flex;
-  justify-content: space-between;
-}
-
-.navigationList {
-  display: flex;
-  align-items: center;
-}
-
-.navigationList li {
-  margin: 0 0.8rem;
-}
-
-.navigationList li a:hover {
-  border-bottom: 2px solid #99d6d0;
+.navAnchor{
+    padding-inline:10px;
 }
 
 /* hero */
-.withback{
-    background-image: linear-gradient(
-        180deg,
-        rgba(100, 209, 198, 0.55),
-        rgba(100, 209, 198, 0.55)
-      ),
-      url("./assets/occen.jpg");
-    background-repeat: no-repeat;
-    background-size: auto, cover;
-    background-position: center;
-    padding: 98px 10px;
-}
-
-.heading {
-  color: #fff;
-  text-align: center;
-}
-
-.heroHeading {
-  letter-spacing: 5px;
-  font-size: 2.5rem;
-  font-weight: 400;
-}
-
-.line-div {
-  margin: 28px auto;
-  border: 2px solid gray;
-}
-
-.subHeading {
-  font-style: italic;
-  font-family: serif;
-  letter-spacing: -1px;
-}
-
-.withoutback{
-    background-color: #fefec9;
-    padding-bottom: 61px;
+.herocontainer{
     display: flex;
-    border:2px solid ;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(./assets/waterFall.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
 }
 
-.hero-para{
-    text-transform: capitalize;
-    width: 70%;
-    border: 2px solid red;
-    margin: 20px auto  ;
-    text-align: center;
-}
-
-.para-div{
+.hero{
+    border: 2px solid green;
+    width: 60%;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content:center;
-    align-items: center;
+    justify-content: center;
+    /* align-items: center; */
 }
 
-.btnTouch{
-    width:5rem;
+.herodata{
+    display: flex;
+
 }
-
-
-
-
-
-
-
 
 
 
