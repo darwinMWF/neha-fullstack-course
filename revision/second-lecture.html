@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>css</title>
+    <link rel="stylesheet" href="./second-lecture.css">
+    <!-- internal css -->
+    <style>
+        /* selector */
+        li{
+           text-transform: capitalize;
+           list-style: none; 
+        }
+        p{
+            color: green;
+        }
+
+        /* id selector */
+
+        /* #para-1{
+            color: brown;
+        } */
+
+        /*
+        comment
+        */
+
+        /* class selector */
+        .colrPara{
+            color: brown;
+        }
+
+        /* attribute selector */
+        /* img{
+            width: 100px;
+        } */
+
+        img[src="../assets/images/img1.jpg"]{
+            width: 100px;
+        }
+        
+        img[alt="tv"]{
+            width: 220px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <!-- one way : inline css -->
+    <h1 style="color:red;font-size: 2rem;">hello css world</h1>
+    <p id="para-1" class="colrPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores deleniti eum neque ad repellat ea nulla minima id ducimus exercitationem, a voluptatibus autem aliquid aut, dolor facilis quidem doloribus atque.</p>
+    <p class="colrPara">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque consequuntur nobis sit ducimus saepe. Excepturi, cupiditate neque! Beatae, reprehenderit. Esse animi deleniti ducimus quidem hic ea nesciunt eos blanditiis quasi!</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, fuga pariatur magni est harum corrupti deleniti animi provident reiciendis odit expedita sed facilis atque similique repudiandae natus tempora ab alias!</p>
+    <ul>
+        <li>fruites</li>
+        <li>grocery</li>
+        <li>vegetables</li>
+        <li>snacks</li>
+    </ul>
+
+    <div>
+        <h1>hello this division</h1>
+        <img src="../assets/images/img1.jpg" alt="paramid">
+        <img src="../assets/images/tv.jpg" alt="tv">
+    </div>
+</body>
+</html>
