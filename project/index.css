@@ -1,67 +1,220 @@
-*{
-    margin: 0;
-    padding:0;
-    box-sizing: border-box;
-    text-transform: capitalize;
-    text-decoration: none;
-    list-style: none;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  text-decoration: none;
+  list-style: none;
+  font-family: HelveticaNeue, Helvetica Neue, helvetica, Sans-Serif;
 }
 
 /* navigation */
-header{
-    height: 40px;
-    border: 2px solid;
+header {
+  height: 40px;
+  /* border: 2px solid; */
 }
-.container{
-    width: 900px;
-    height: 100%;
-    margin: 0 auto;
-    border: 2px solid red;
-}
-
-.colortext{
-    color: black;
+.container {
+  width: 900px;
+  height: 100%;
+  margin: 0 auto;
+  /* border: 2px solid red; */
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 2px solid;
-    height: 100%;
+.colortext {
+  color: black;
 }
 
-#div-2{
-    display: flex;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 2px solid; */
+  height: 100%;
 }
-.navAnchor{
-    padding-inline:10px;
+
+#div-2 {
+  display: flex;
+}
+.navAnchor {
+  padding-inline: 10px;
 }
 
 /* hero */
-.herocontainer{
-    display: flex;
-    justify-content: center;
-    height: 100vh;
-    background-image: url(./assets/waterFall.avif);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;
+.herocontainer {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(./assets/city.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-.hero{
-    border: 2px solid green;
-    width: 60%;
-    height: 100%;
-    display: flex;
+.hero {
+  /* border: 2px solid green; */
+  width: 60%;
+  height: 100%;
+  /* display: flex;
     flex-direction: column;
-    justify-content: center;
-    /* align-items: center; */
+    justify-content: center; */
+  /* align-items: center; */
 }
 
-.herodata{
-    display: flex;
+.herodata {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* border: 2px solid red; */
+  height: 70%;
+}
 
+.textFormate {
+  text-align: center;
+  color: white;
+}
+
+.btndesign {
+  border-radius: 20px;
+  padding: 10px;
+  margin: 0 auto;
+  border: none;
+}
+
+.btndesign:hover {
+  background-color: #2969ff;
+  color: white;
+  border: 1px solid white;
+}
+
+/* about */
+
+.aboutContainer {
+  height: auto;
+  /* border: 2px solid orange; */
+  display: flex;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  height: 100vh;
+  /* gap: 20px; */
+}
+
+.userImg {
+  height: 100%;
+  padding-right: 2rem;
+}
+
+.aboutImg {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.about {
+  padding: 1rem;
+  /* border: 2px solid ; */
+}
+
+.aboutFirstPara {
+  letter-spacing: 1px;
+  line-height: 1.5;
+  max-width: 28rem;
+  font-size: 1.2rem;
+  /* line-break: anywhere; */
+  text-wrap: wrap;
+}
+
+.aboutsecondPara {
+  font-size: 0.7rem;
+  line-height: 1.5;
+  letter-spacing: 0.8px;
+  color: gray;
+  max-width: 28rem;
+  margin-top: 1.5rem;
+}
+
+.aboutBtn {
+  border: 1px solid;
+  margin-top: 1.5rem;
+}
+
+.headingAbout {
+  font-size: 3rem;
+  font-weight: 400;
+  margin-top: 0.8rem;
+}
+
+/* .discover */
+.discover {
+  background-color: #606055;
+}
+
+.moreBtns {
+  background-color: #606055;
+  border: 1px solid white;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  height:40px;
+
+}
+
+.moreBtns:hover {
+  background-color: white;
+  color: black;
+}
+
+.services {
+  display: flex;
+  padding: 3rem;
+  /* justify-content:space-between; */
+  gap: 20px;
+  /* border: 2px solid white; */
+}
+
+.servicedesrciption {
+  background-color: white;
+  padding: 1rem;
+  
+}
+
+.bookBtn {
+  border-radius: 20px;
+  padding: 10px 16px;
+  background-color: #2969ff;
+  color:white;
+  border: none;
+}
+
+.servicedesrciption h2{
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+.servicedesrciption h2,p,h3{
+    margin: 10px 0;
+}
+
+.servicedesrciption p,h3{
+    font-size: .62rem;
+    font-weight: 100;
+}
+
+.firstBtn{
+    margin-top:1.5rem ; 
+}
+
+.textMarketing{
+    display: flex;
+    justify-content: space-between;
+    padding-top:2rem;
+}
+
+.textMarketing h1{
+    color: white;
+    font-weight: 100;
+    font-size: 3rem;
 }
 
 

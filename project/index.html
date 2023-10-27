@@ -3,6 +3,10 @@
   <head>
     <title>project demo</title>
     <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="../font/helvetica-neue_KZoyY (1)/Helvetica Neue/Helvetica Neue Regular/Helvetica Neue Regular.otf"
+    />
   </head>
   <body>
     <!-- navigation -->
@@ -36,11 +40,13 @@
     <section class="herocontainer">
       <div class="hero">
         <section class="herodata">
-          <h4 style="border: 2px solid orange">
+          <h4 class="textFormate" style="margin-top: 20px">
             Consulting for Businesses That Want to Achieve
           </h4>
-          <h1>RESULTS</h1>
-          <button>book Now</button>
+          <h1 class="textFormate" style="font-size: 8rem; font-weight: 400">
+            RESULTS
+          </h1>
+          <button class="btndesign">book Now</button>
         </section>
       </div>
     </section>
@@ -48,58 +54,61 @@
     <!-- about -->
     <div>
       <section class="container">
-        <div class="userImg">
-          <img src="./assets/user.webp" alt="userimg" />
-        </div>
-        <div class="about">
-          <p>
-            I'm Brian Thompson, your ultimate ally in overcoming the challenges
-            that hinder your full potential. Steer your business toward success
-            with me by your side to help you navigate your journey. Together, we
-            will conquer uncertainties and propel your business past new
-            frontiers.
-          </p>
-          <p>
-            This is a space to share more about the business: who's behind it,
-            what it does and what this site has to offer. Its an opportunity to
-            tell the story behind the business or describe a special service or
-            product it offers. You can use this section to share the company
-            history or highlight a particular feature that sets it apart from
-            competitors
-          </p>
-          <a href=""><button>read more</button></a>
+        <h1 class="headingAbout">about</h1>
+        <div class="aboutContainer">
+          <div class="userImg">
+            <img src="./assets/user.webp" class="aboutImg" alt="userimg" />
+          </div>
+          <div class="about">
+            <p class="aboutFirstPara">
+              I'm Brian Thompson, your ultimate ally in overcoming the
+              challenges that hinder your full potential. Steer your business
+              toward success with me by your side to help you navigate your
+              journey. Together, we will conquer uncertainties and propel your
+              business past new frontiers.
+            </p>
+            <p class="aboutsecondPara">
+              This is a space to share more about the business: who's behind it,
+              what it does and what this site has to offer. Its an opportunity
+              to tell the story behind the business or describe a special
+              service or product it offers. You can use this section to share
+              the company history or highlight a particular feature that sets it
+              apart from competitors
+            </p>
+            <a href=""><button class="btndesign aboutBtn">read more</button></a>
+          </div>
         </div>
       </section>
     </div>
 
     <!-- marketing -->
-    <div>
+    <div class="discover">
       <section class="container">
         <div class="marketing">
           <div class="textMarketing">
-            <h1>Discover your ideal solution</h1>
-            <button>More services</button>
+            <h1>Discover <br> your ideal solution</h1>
+            <button class="moreBtns">More services</button>
           </div>
           <div class="services">
             <div class="servicedesrciption">
               <h2>Free Consultation</h2>
               <p>Use this area to describe one of your services.</p>
               <h3>30 min</h3>
-              <button>Book now</button>
+              <button class="bookBtn firstBtn">Book now</button>
             </div>
             <div class="servicedesrciption">
               <h2>Performance Optimization</h2>
               <p>Use this area to describe one of your services.</p>
               <h3>1 hr</h3>
               <h3>$80</h3>
-              <button>Book now</button>
+              <button class="bookBtn">Book now</button>
             </div>
             <div class="servicedesrciption">
               <h2>Financial Consulting</h2>
               <p>Use this area to describe one of your services.</p>
               <h3>1 hr</h3>
               <h3>$80</h3>
-              <button>Book now</button>
+              <button class="bookBtn">Book now</button>
             </div>
           </div>
         </div>
