@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>conditions</title>
+  </head>
+  <body>
+    <script>
+      // console.log(5+2)
+
+      // console.log(c)
+      // console.log("hello world")
+
+      // operator
+      // 3+5,- * / % arithmatic operator
+      // comaprison < > <= >= == != === !==
+      let x = 7;
+      // 4 is than 5  4<5
+      // 5 is greater than 6 5>6
+      // x<=5 is less or eqaul to 5<=5
+      // x>=6 is gerater or equal to
+      //  x==y equal to equal to
+      // x!=y not qual to
+
+      // console.log(6<5)
+      // console.log(6>5)
+      // console.log(x<=7)
+      // console.log(x>=7)
+      // console.log(x==7)
+      // console.log(x!=7)
+      // console.log(x === '7')
+      // console.log(x !== "7")
+
+      //logical
+      // boolean expression
+      // and operator
+      // 0 0 = 0
+      // 1 0 = 0
+      // 0 1 = 0
+      // 1 1 = 1
+      // &&
+
+      // console.log(4>5 && 4<5)
+      // console.log(4>5 && 6+3 != 9)
+      // console.log(4<5 && 6+3 != 9)
+      // console.log(4<5 && 6+3 === 9)
+
+      // or ||
+      // 0 0 = 0
+      // 1 0 = 1
+      // 0 1 = 1
+      // 1 1 = 1
+
+      // console.log(2-3 == 2-1 || 0 !== 0)
+      // console.log(2-3 != 2-1 || 0 !== 0)
+      // console.log(2-3 == 2-1 || 0 == 0)
+      // console.log(2-3 != 2-1 || 0 == 0)
+
+      //   let a = 4,
+      //     b = 7;
+      //   let c;
+      //   if (a > b) {
+      //     c = a + b; 11
+      //   } else {
+      //     c = a - b; -3
+      //   }
+      //   console.log(c);
+
+    //   let age;
+
+    //   age = prompt("enter your age");
+      //   console.log(age)
+
+      //   if (age > 18) {
+      //     alert("you are eligible for voting");
+      //   } else if (age > 14 && age <= 18) {
+      //     if (age == 18) {
+      //       alert("sorry you will be voting next year");
+      //     } else {
+      //       alert("sorry, you are teenager not eligible for voting");
+      //     }
+      //   } else if (age >= 0 && age <= 14) {
+      //     alert("sorry you r children not eligible");
+      //   } else {
+      //     alert("you are not eligible for voting");
+      //   }
+
+      let year = prompt("enter year");
+      if (year % 4 === 0) {
+        if (year % 100 === 0) {
+          if (year % 400 === 0) {
+            alert("leap year");
+          } else {
+            alert("not leap year");
+          }
+        } else {
+          alert("leap year");
+        }
+      } else {
+        alert("not leap year");
+      }
+    </script>
+  </body>
+</html>
