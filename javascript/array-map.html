@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let names = [
+        "vijay",
+        "ramesh",
+        "suresh",
+        ["test", ["demo", "super"]],
+        function () {
+          alert("hello");
+        },
+      ];
+
+      //   console.log(names[4][1][1]);
+      //   console.log(names[5]());
+
+      // object
+
+      let students = [
+        { name: "vijay", marks: 225, per: 89 },
+        { name: "vijay1", marks: 225, per: 79 },
+        { name: "vijay2", marks: 225, per: 59 },
+        { name: "vijay2", marks: 225, per: 59 },
+        { name: "vijay2", marks: 225, per: 59 },
+        { name: "vijay2", marks: 225, per: 59 },
+        { name: "vijay4", marks: 225, per: 59 },
+        { name: "vijay6", marks: 225, per: 59 },
+      ];
+
+      console.log(students);
+
+      students.map(function (value, index) {
+        console.log(index);
+        console.log(value.name);
+      });
+
+      // filter, find, reduce
+
+      // console.log(students[2].per);
+
+      // getElementById
+      // getElementsByClassName
+    </script>
+  </body>
+</html>
